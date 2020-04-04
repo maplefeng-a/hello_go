@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('run') {
       steps {
-        sh 'go run'
+        sh '''source /etc/profile
+go run'''
       }
     }
 
