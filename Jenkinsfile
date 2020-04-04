@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('run') {
       steps {
-        sh 'echo $PATH'
+        sh 'go run'
       }
     }
 
