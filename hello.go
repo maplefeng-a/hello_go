@@ -129,3 +129,5 @@ type USB interface {
 func (p Persion) create() {
 	fmt.Println("aaa")
 }
+
+funcTmp()
